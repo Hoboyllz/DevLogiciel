@@ -1,0 +1,25 @@
+La version console est entièrement faite. Le seul bémole à ma connaissance est que le
+dictionnaire est très pauvre en mots car je n'ai pas eu le temps de faire une fonction
+permettant de trier n'importe quelle dictionnaire venant d'internet
+
+La version graphique, quant à elle, est désastreuse. J'ai rencontré beaucoup de soucis, d'une part parce que
+je n'ai jamais fait de python graphique (sauf des graphiques) et d'autre part parce que
+l'ensemble des programmes étudié en cours avait leur fonctions implémanté dans le programme
+principale, omettant la partie échange de donnée entre plusieurs fichiers sous Tkinter comme
+par exemple : récupérer une donnée depuis une fonction appelé par un bouton ou appeler une
+fonction avec des paramètres qui n'est pas dans le programme principale avec command, ce qui
+enlève la possibilité d'utiliser "global" visiblement.
+
+Problème rencontré pour la version graphique:
+1- Cas d'une proposition sans letter ou mot donné non traité pour la version graphique.
+
+2- Je ne sais pas comment transmettre les information au programme principale
+avec une fonction appelé par un bouton. Donc je n'ai pas su faire une actualisation
+du label montrant le mot caché
+J'ai essayé Toplevel (en commentaire dans fgestion) mais j'ai une erreur me disant:
+"Tk has no atttribute 'Toplevel'". Je suis en python 3.2, je ne sais pas si c'est lié.
+
+3- Je n'arrive pas à manipuler les images, je reçois l'erreur "too early to create image" à
+la ligne : photo = PhotoImage()
+
+4- Je n'ai pas eu le temps de faire les scores
